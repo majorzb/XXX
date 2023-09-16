@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="images">
+    <file>../Qtdesigner/images/technology-4905257_1280.jpg</file>
+    <file>title.png</file>
+    <file>../Qtdesigner/images/检验报告.png</file>
+    <file>../Qtdesigner/images/1.jpg</file>
+    <file>../Qtdesigner/images/QQ图片20230906201633.jpg</file>
+    <file>../Qtdesigner/images/背景3.png</file>
+    <file>../Qtdesigner/images/背景2.png</file>
+    <file>../Qtdesigner/images/QQ图片20230906202133.jpg</file>
+    <file>../Qtdesigner/images/问号.png</file>
+    <file>../Qtdesigner/images/选择文件.png</file>
+    <file>../Qtdesigner/images/保存.png</file>
+    <file>../Qtdesigner/images/导入.png</file>
+    <file>../Qtdesigner/images/漏斗.png</file>
+    <file>../Qtdesigner/images/批量导入.png</file>
+    <file>../Qtdesigner/images/covid-19-4982914_1280.jpg</file>
+    <file>../Qtdesigner/images/dna-7090994_1280.jpg</file>
+    <file>../Qtdesigner/images/lab-217043_1280.jpg</file>
+    <file>../Qtdesigner/images/Prediction.png</file>
+    <file>../Qtdesigner/images/test.png</file>
+    <file>../Qtdesigner/images/功能.png</file>
+    <file>../Qtdesigner/images/清空.png</file>
+    <file>../Qtdesigner/images/清空1.png</file>
+    <file>../Qtdesigner/images/首页.png</file>
+    <file>../Qtdesigner/images/中毒.png</file>
+  </qresource>
+</RCC>
