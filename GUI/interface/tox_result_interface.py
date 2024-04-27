@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
 from GUI.UI.new_result import Ui_Form
-
+from GUI.interface.tox21_result_interface import ResultTox21 as tox21_result
 class Result(QFrame, Ui_Form):
     def __init__(self, smiles, parent=None):
         super().__init__()
@@ -29,7 +29,9 @@ class Result(QFrame, Ui_Form):
         molecule = self.smiles
         if molecule:
             # 设置字体
-            font = QFont()
+            self.tox21 = tox21_result(molecule)
+            self.tox21.show()
+            '''font = QFont()
             font.setPointSize(15)
             font.setBold(False)
             font.setFamily('宋体')
@@ -123,4 +125,4 @@ class Result(QFrame, Ui_Form):
             self.msg_box2.setLayout(self.layout4)
             self.msg_box2.show()
         else:
-            QMessageBox.warning(self, "提示", "输入为空")
+            QMessageBox.warning(self, "提示", "输入为空")'''
